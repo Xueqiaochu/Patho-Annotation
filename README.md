@@ -2,19 +2,41 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
 
-This contains everything you need to run your app locally.
+# Pathology Data Annotation Tool 网页版
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MvTn97cLPa_14BWLyToz4PsFpru9CydN
+本项目已支持网页端访问，无需本地环境即可直接使用。
 
-## Run Locally
+## 在线访问
 
-**Prerequisites:**  Node.js
+你可以通过 GitHub Pages 在线访问和使用本工具：
 
+```
+https://Xueqiaochu.github.io/copy-of-copy-of-pathology-data-annotation-tool/
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+> 请将上方链接中的用户名和仓库名替换为你自己的（如有 fork 或迁移）。
+
+## 本地运行
+
+**前置条件：** 需安装 Node.js
+
+1. 安装依赖：
+   ```sh
+   npm install
+   ```
+2. 配置 API Key（如需）：
+   在 [.env.local](.env.local) 文件中设置 `GEMINI_API_KEY`
+3. 启动本地开发服务器：
+   ```sh
+   npm run dev
+   ```
+
+## 部署到 GitHub Pages
+
+1. 修改 `package.json` 中的 `homepage` 字段为你的仓库地址。
+2. 执行：
+   ```sh
+   npm run deploy
+   ```
+3. 稍等片刻，即可通过 GitHub Pages 访问。
