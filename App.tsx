@@ -174,8 +174,6 @@ const Login: React.FC<{ onLogin: (user: User) => void }> = ({ onLogin }) => {
               <div className="p-4 bg-amber-50 border border-amber-200 rounded-2xl">
                 <p className="text-xs text-amber-700 font-bold leading-relaxed">
                   注册新成员需要管理员权限。
-                  <br />
-                  <span className="text-[10px] opacity-75">初始管理员: qiaochu / 123456</span>
                 </p>
               </div>
               <div>
