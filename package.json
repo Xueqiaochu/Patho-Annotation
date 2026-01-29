@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://你的GitHub用户名.github.io/copy-of-copy-of-pathology-data-annotation-tool/",
+  "homepage": "https://Xueqiaochu.github.io/Patho-Annotation/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

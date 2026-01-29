@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     // ⚠️ 请将 repoName 替换为你的仓库名
-    const repoName = 'copy-of-copy-of-pathology-data-annotation-tool';
+    const repoName = 'Patho-Annotation';
     return {
       base: `/${repoName}/`,
       server: {

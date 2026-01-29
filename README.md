@@ -12,10 +12,10 @@
 你可以通过 GitHub Pages 在线访问和使用本工具：
 
 ```
-https://Xueqiaochu.github.io/copy-of-copy-of-pathology-data-annotation-tool/
+https://Xueqiaochu.github.io/Patho-Annotation/
 ```
 
-> 请将上方链接中的用户名和仓库名替换为你自己的（如有 fork 或迁移）。
+> 如果你 fork 或迁移了本项目，请将上方链接中的用户名和仓库名替换为你自己的。
 
 ## 本地运行
 
