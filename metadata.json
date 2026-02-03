@@ -1,7 +1,0 @@
-{
-  "name": "Copy of Copy of Pathology Data Annotation Tool",
-  "description": "A professional tool for converting PDF textbook content into structured JSON datasets for medical AI training, featuring text labeling and specialized image tagging (HE/IHC, magnification).",
-  "requestFramePermissions": [
-    "camera"
-  ]
-}
